@@ -1,0 +1,38 @@
+# -*- coding: utf-8 -*-
+"""Projetos.ipynb
+Original file is located at
+    https://colab.research.google.com/drive/1BKGvhZMqUuGAXnoJLObHQ-CVXk-Z0ITT
+
+# PROJETO CALCULADORA INTELIGENTE
+"""
+print("Calculadora")
+num1 = float(input("Digite o primeiro número:"))
+num2 = float(input("Digite o segundo número:"))
+operacao = input("Digite a operação (+,-,*,/):")
+
+# Verfica o resultado da operação
+if  operacao == "+":
+    resultado = num1 + num2
+elif  operacao == "-":
+    resultado = num1 - num2
+elif  operacao == "*":
+    resultado = num1 * num2
+elif  operacao == "/":
+     if num2 != 0:
+      resultado = num1 / num2
+# Verfica o resultado da operação
+if  operacao == "+":
+    resultado = num1 + num2
+elif  operacao == "-":
+    resultado = num1 - num2
+elif  operacao == "*":
+    resultado = num1 * num2
+elif  operacao == "/":
+     if num2 != 0:
+      resultado = num1 / num2
+     else:
+      resultado = "Erro: Divisão por zero."
+
+print("O resultado é:", resultado)
+     print("Obrigada por calcular com a calculadora")
+     print("Até a próxima!")
