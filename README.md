@@ -8,3 +8,4 @@
 # else para que apareça a mensagem "ERRO: divisão por zero"
 
 # por fim, utilizamos print novamente para mostrar o resultado da operação e uma mensagem de agradecimento.
+# para executar utilizamos o colab 
